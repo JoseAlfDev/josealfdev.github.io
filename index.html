@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jose_Dev - Programador Junior</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio 🏠</a></li>
+        <li><a href="contacto.html">Contáctame 📧</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <div class="container">
+      <h1 style="color: white; font-weight: bold;">¡Hola! Soy programador Junior</h1>
+      <p style="color: white;">Tengo 15 años y aquí están mis habilidades:</p>
+
+      <div class="skills">
+        <div class="skill">
+          <img src="html_image.png" alt="Skill 1">
+          <h2 style="color: white; font-weight: bold;">HTML</h2>
+        </div>
+        <div class="skill">
+          <img src="css_image.png" alt="Skill 2">
+          <h2 style="color: white; font-weight: bold;">CSS</h2>
+        </div>
+        <div class="skill">
+          <img src="js_image.png" alt="Skill 2">
+          <h2 style="color: white; font-weight: bold;">JAVA SCRIPT</h2>
+        </div>
+        <div class="skill">
+          <img src="photoshop_image.png" alt="Skill 2">
+          <h2 style="color: white; font-weight: bold;">PHOTOSHOP</h2>
+        </div>
+        <!-- Agregar más habilidades según sea necesario -->
+      </div>
+    </div>
+
+  <footer>
+    <p style="color: white;">&copy; Jose_Dev</p>
+  </footer>
+  <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"  // Color morado claro
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": false
+                    },
+                    "onclick": {
+                        "enable": false
+                    },
+                    "resize": true
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+ 
+
+</body>
+</html>
